@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GamePerguntasERespostas.MainPage"
+             Title="Perguntas e Respostas"
+             BackgroundColor="White">
+             
+
+    <StackLayout>
+        <Label Text="Jogo de pergunstas e respostas" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="Large" TextColor="Black"/>
+        <Image Source="Wesley" Aspect="AspectFit"/>
+        <Button Text="Jogar" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

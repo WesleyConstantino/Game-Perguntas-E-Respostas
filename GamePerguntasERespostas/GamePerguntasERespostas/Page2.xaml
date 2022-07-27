@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GamePerguntasERespostas.Page2"
+             Title="Segunda Perguta"
+             BackgroundColor="Red">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Qual o meu sobrenome?"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+            <Entry HorizontalOptions="FillAndExpand" x:Name="enResposta"/>
+            <Button Text="Responder" Clicked="Button_Clicked"/>
+            <Button Text="Voltar para o início" Clicked="Button_Clicked_1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
